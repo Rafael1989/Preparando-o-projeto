@@ -23,3 +23,15 @@ header img{
 	padding-right: 15px;
 	margin: 0 auto;
 }
+
+ul.menu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul.menu > li{
+	display:inline-block;
+	border:3px solid red;
+	padding: 5px;
+}
