@@ -97,3 +97,14 @@ article > footer{
 .botao:hover, .botao:focus{
 	background-color: #0e6400;
 }
+
+/* 
+
+Zerar o css 
+
+Para não precisar depender do padrão do navegador
+Sempre importar antes dos outros arquivos css para não sobrescrever
+bit.ly/resetcss 
+bit.ly/normalizecss -- bootstrap usa o normalize 
+
+*/
