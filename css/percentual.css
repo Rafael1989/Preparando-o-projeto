@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1000px;
+    background-color: yellow;
+}
+
+/* 
+
+O padrão do navegador é 16px para font-size
+2 x o tamanho do pai(navegador no caso) e é acumulativo 
+padding, margin sao relativas a largura do container onde estão inseridas.
+
+*/
+.caixa{
+    margin-top: 10%;
+    width: 50%;
+    padding: 10%;
+    font-size: 200%;
+    background-color: #ccc;
+    border: 5px solid black;
+}
+
+/* 2 x o tamanho do pai e é acumulativo */
+p{
+    font-size: 200%;
+}
+
+h1{
+    font-size: 500%;
+}
