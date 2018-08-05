@@ -1,0 +1,27 @@
+/* PEGA O TAMANHO DO NAVEGADOR */
+html{
+    font-size: 100%;
+}
+
+/* 
+
+SUBSTITUI O TAMANHO DO NAVEGADOR 
+SE NÃO ESPECIFICAR HERDA O TAMANHO DO NAVEGADOR
+
+*/
+body{
+    font-size: 10px;
+}
+
+/* 
+
+tamanho com pixel é fixo, se diminuir a tela continua o mesmo tamanho 
+pixel deve ser evitado, pois impacta na responsivilidade e na usabilidade no caso da fonte
+*/
+.caixa{
+    width: 600px;
+    padding: 20px;
+    font-size: 12px;
+    background-color: #ccc;
+    border: 5px solid black;
+}
