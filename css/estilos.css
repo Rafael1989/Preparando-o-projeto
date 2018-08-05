@@ -17,13 +17,14 @@ header img{
 	margin-top: 12px;
 }
 
+/*
 .container{
 	width: 100%;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin: 0 auto;
 }
-
+*/
 ul.menu{
 	list-style: none;
 	padding: 0;
@@ -52,21 +53,20 @@ article{
 	padding: 10px;
 }
 
-/* a partir de 600 px aplicará */
+/* a partir de 600 px aplicará 
 @media(min-width: 600px){
 	article{
 		background-color: yellow;
 	}
 }
-
-/* até 600 px aplicará */
+ até 600 px aplicará 
 @media(max-width: 600px){
 	article{
 		background-color: green;
 	}
 }
 
-/* a partir de 800 px aplicará */
+ a partir de 800 px aplicará 
 @media(min-width: 800px){
 	article{
 		width: 30%;
@@ -75,7 +75,7 @@ article{
 	}
 }
 
-
+*/
 
 article > h2{
 	background-color: #95a4a5;
