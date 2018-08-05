@@ -49,11 +49,33 @@ ul.menu > li{
 
 article{
 	border: 1px solid #95a4a5;
-	width: 30%;
 	padding: 10px;
-	float: left;
-	margin-right: 5%;
 }
+
+/* a partir de 600 px aplicará */
+@media(min-width: 600px){
+	article{
+		background-color: yellow;
+	}
+}
+
+/* até 600 px aplicará */
+@media(max-width: 600px){
+	article{
+		background-color: green;
+	}
+}
+
+/* a partir de 800 px aplicará */
+@media(min-width: 800px){
+	article{
+		width: 30%;
+		float: left;
+		margin-right: 5%;
+	}
+}
+
+
 
 article > h2{
 	background-color: #95a4a5;
