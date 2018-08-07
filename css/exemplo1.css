@@ -1,0 +1,37 @@
+body{
+    font-size: 32px;
+}
+
+h1{ /* 
+    
+    001 só tem tag 
+    important sobrescreve todas outras
+    evite usar important
+    */
+    color: red !important;
+}
+
+/* class é mais específica que a tag, é a que vale */
+.amarelo{
+    color: yellow;
+}
+
+.amarelo{/*010 só tem class*/
+    color: green;
+}
+
+/* id é mais específico, logo é o que vale */
+#logo{ /*100 só tem id*/
+    color: black;
+}
+
+/* mesma regra a última é a que vale*/
+h1{
+    color: blue;
+}
+
+/*
+quantidade de id >quantidade de  class >quantidade de  tag
+1      1       1
+*/
+
