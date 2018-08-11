@@ -1,0 +1,29 @@
+/* no container usa o rem e no resto em para não se perder */
+.texto {
+    font-size: 2rem;
+  }
+  /* 3 x O TAMANHO DO PAI, SE NÃO TIVER 3 X O TAMANHO DEFINIDO NO NAVEGADOR */
+  .texto h1 {
+    font-size: 3em;
+  }
+  
+  .texto p {
+    padding: 0.5em; /* METADE DO FONT-SIZE */
+    margin-right: 3em;/* 3 VEZES O FONT-SIZE */
+    border: 0.5em solid black; /* METADE DO FONT-SIZE */
+  
+    font-size: 2em;
+  }
+  
+  .texto p span {
+    font-size: 0.5em;
+  }
+  
+  
+  .comentarios {
+    font-size: 0.5rem;/* METADE DO TAMANHO DO DOCUMENTO HTML, NÃO DO PAI */
+  }
+  
+  .comentarios p {
+    font-size: 2em;
+  }
