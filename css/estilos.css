@@ -1,5 +1,15 @@
 /* 
 
+cssguidelin.es um guia para desenvolver css
+
+-PRIMEIRO POSICIONAMENTO PULA LINHA
+-DEPOIS DISPLAY E BOX MODEL PULA LINHA (MARGIN,PADDING,LARGURA,ALTURA,BORDA...) LARGURA PERTO DA ALTURA
+-DEPOIS CORES PULA LINHA
+-DEPOIS TEXTO PULA LINHA
+-OUTROS
+
+NÃO SELECIONAR POR TAG, NEM POR ID.
+
 BEM É UMA METODOLOGIA http://getbem.com/ BLOCK ELEMENT MODIFIER
 BLOCK: SÃO BLOCOS DA PÁGINA QUE PODEM SER REUTILIZADOS
 -MENU
@@ -17,25 +27,6 @@ ELEMENTO: UM BLOCO TEM VÁRIOS ELEMENTOS, NÃO FUNCIONA SOZINHO DEPENDEM DO BLOC
 MODIFIER: UMA MARCAÇÃO NO BLOCO, PARA MUDAR A APARÊNCIA, ESTADO OU COMPORTAMENTO DO BLOCO, ELE PRECISA DO BLOCO PARA EXISTIR
 -MAIS POPULAR É UM MODIFIER USADO EM PLANO PARA DIFERENCIAR UM PLANO
 */
-
-*{
-	box-sizing: border-box;
-}
-
-body{
-	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-}
-
-header{
-	height: 60px;
-	border-bottom: 1px solid #ccc;
-}
-
-header img{
-	margin-top: 12px;
-}
 
 /*
 .container{
@@ -55,17 +46,6 @@ ul.menu > li{
 	display:inline-block;
 	border:3px solid red;
 	padding: 5px;
-}
-
-#planos{
-	padding: 80px 0;
-}
-
-/* Aplicará depois do elemento */
-#planos::after{
-	content: "";
-	display: block;
-	clear: both;
 }
 
 article{
